@@ -27,8 +27,16 @@ while i < 10:
     pass
 point=str(point)
 #let the system calculate up the point
-print("Your mark:"+point   )
-if point > 80 :
-  print("Your did a great job!")                                                                                                                           
+# print("Your mark:"+point   )
+# if point > 80 :
+#   print("Your did a great job!")                                                                                                                           
+# else:
+#   print("You can do it better next time!")
+if point == 100 :
+  point= str(pt)
+  print("Your mark:" + point)
+  print("Your did a great job!")
 else:
+  point= str(point)
+  print("Your mark:" + point)
   print("You can do it better next time!")
